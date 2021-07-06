@@ -52,6 +52,16 @@ let navSix = document.querySelector('a:nth-of-type(6)')
 let ctaImg = document.querySelector('#cta-img')
 let ctaButton = document.querySelector('button')
 let h1 = document.querySelector('h1')
+//"main-content" Selectors
+let featureHead = document.querySelector('h4:nth-of-type(1)')
+let aboutHead = document.querySelector('h4:nth-of-type(2)')
+let features = document.querySelector('p:nth-of-type(1)')
+let about = document.querySelector('p:nth-of-type(2)')
+let servicesHead = document.querySelector('h4:nth-of-type(3)')
+let services = document.querySelector('p:nth-of-type(3)')
+let productHead = document.querySelector('h4:nth-of-type(4)')
+let product = document.querySelector('p:nth-of-type(4)')
+let midImg = document.querySelector('#middle-img')
 //Nav Section
 navOne.textContent = 'Services'
 navTwo.textContent = 'Product'
@@ -64,3 +74,11 @@ navBar.style.color = '#b0b0b0';
 ctaImg.src = './img/header-img.png'
 ctaButton.textContent = 'Get Started'
 h1.textContent = 'DOM IS AWESOME'
+//"main-content" section
+featureHead.textContent = 'Features'
+aboutHead.textContent = 'About'
+servicesHead.textContent = 'Services'
+productHead.textContent = 'Product'
+midImg.src = './img/mid-page-accent.jpg'
+features.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+about.textContent =  "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
