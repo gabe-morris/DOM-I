@@ -51,6 +51,7 @@ let navSix = document.querySelector('a:nth-of-type(6)')
 //cta Selectors Declaration
 let ctaImg = document.querySelector('#cta-img')
 let ctaButton = document.querySelector('button')
+let h1 = document.querySelector('h1')
 //Nav Section
 navOne.textContent = 'Services'
 navTwo.textContent = 'Product'
@@ -60,4 +61,6 @@ navFive.textContent = 'About'
 navSix.textContent = 'Contact'
 navBar.style.color = '#b0b0b0';
 //cta Section
-ctaImg.src = 'img/header-img.png';
+ctaImg.src = './img/header-img.png'
+ctaButton.textContent = 'Get Started'
+h1.textContent = 'DOM IS AWESOME'
