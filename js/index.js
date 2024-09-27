@@ -40,3 +40,45 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+//Nav Selectors Declaration
+let navBar = document.querySelector('nav')
+let navOne = document.querySelector('a:nth-of-type(1)')
+let navTwo = document.querySelector('a:nth-of-type(2)')
+let navThree = document.querySelector('a:nth-of-type(3)')
+let navFour = document.querySelector('a:nth-of-type(4)')
+let navFive = document.querySelector('a:nth-of-type(5)')
+let navSix = document.querySelector('a:nth-of-type(6)')
+//cta Selectors Declaration
+let ctaImg = document.querySelector('#cta-img')
+let ctaButton = document.querySelector('button')
+let h1 = document.querySelector('h1')
+//"main-content" Selectors
+let featureHead = document.querySelector('h4:nth-of-type(1)')
+let aboutHead = document.querySelector('h4:nth-of-type(2)')
+let features = document.querySelector('p:nth-of-type(1)')
+let about = document.querySelector('p:nth-of-type(2)')
+let servicesHead = document.querySelector('h4:nth-of-type(3)')
+let services = document.querySelector('p:nth-of-type(3)')
+let productHead = document.querySelector('h4:nth-of-type(4)')
+let product = document.querySelector('p:nth-of-type(4)')
+let midImg = document.querySelector('#middle-img')
+//Nav Section
+navOne.textContent = 'Services'
+navTwo.textContent = 'Product'
+navThree.textContent = 'Vision'
+navFour.textContent = 'Features'
+navFive.textContent = 'About'
+navSix.textContent = 'Contact'
+navBar.style.color = '#b0b0b0';
+//cta Section
+ctaImg.src = './img/header-img.png'
+ctaButton.textContent = 'Get Started'
+h1.textContent = 'DOM IS AWESOME'
+//"main-content" section
+featureHead.textContent = 'Features'
+aboutHead.textContent = 'About'
+servicesHead.textContent = 'Services'
+productHead.textContent = 'Product'
+midImg.src = './img/mid-page-accent.jpg'
+features.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+about.textContent =  "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
